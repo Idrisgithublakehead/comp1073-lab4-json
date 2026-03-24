@@ -60,6 +60,7 @@ function showTopFlavors(jsonObj) {
         const p1 = document.createElement("p");
         const p2 = document.createElement("p");
         const p3 = document.createElement("p");
+         const p4 = document.createElement("p");
         const list = document.createElement("ul");
         const image = document.createElement("img");
 
