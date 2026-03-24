@@ -25,6 +25,28 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
-    }
+    },
+    {
+  "name" : "Strawberry Sprinkle Storm",
+  "calories" : 420,
+  "type" : "ice cream",
+  "ingredients" : [
+    "strawberry cream",
+    "rainbow sprinkles",
+    "sweet milk"
+  ],
+  "image" : "strawberry-sprinkle.svg"
+},
+{
+  "name" : "Vanilla Blizzard Crunch",
+  "calories" : 390,
+  "type" : "frozen yogurt",
+  "ingredients" : [
+    "vanilla yogurt",
+    "cookie crunch",
+    "whipped cream"
+  ],
+  "image" : "ice-cream-xtra1.svg"
+}
   ]
 }
