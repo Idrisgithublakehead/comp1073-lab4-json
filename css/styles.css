@@ -58,3 +58,79 @@ h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+/* ===== Lab 4 Styling ===== */
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 20px;
+}
+
+.flavor-card {
+  border: 2px solid #222;
+  border-radius: 14px;
+  padding: 18px;
+  width: 260px;
+  background-color: #f9fafb;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.flavor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.flavor-card h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.flavor-card img {
+  width: 95px;
+  margin: 10px 0;
+}
+
+.flavor-card p {
+  font-size: 0.95rem;
+  margin: 6px 0;
+}
+
+.flavor-card p:nth-of-type(2) {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.flavor-card p:nth-of-type(4) {
+  font-weight: 800;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+/* Type-based styling */
+.ice-cream {
+  background-color: #ffe4e6;
+}
+
+.sorbet {
+  background-color: #e0f7fa;
+}
+
+.frozen-yogurt {
+  background-color: #ede9fe;
+}
