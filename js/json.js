@@ -96,11 +96,13 @@ function showTopFlavors(jsonObj) {
         }
 
         // STEP 10h: Append each of the above HTML elements to the ARTICLE element
+               // STEP 10h: Append each of the above HTML elements to the ARTICLE element
         article.appendChild(h2);
         article.appendChild(image);
         article.appendChild(p1);
         article.appendChild(p2);
         article.appendChild(p3);
+        article.appendChild(p4);
         article.appendChild(list);
         
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
